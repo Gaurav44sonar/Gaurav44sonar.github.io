@@ -1,5 +1,8 @@
 body {
     background-image: url('sp1.jfif');
     background-size: cover;
+}
+
+#t {
     color: yellow;
 }
