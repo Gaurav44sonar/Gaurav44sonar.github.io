@@ -19,3 +19,56 @@ ul {
 img {
     width: 100%;
 }
+
+/* Global classes */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Stylin navigation */
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 500;
+}
+
+header nav ul a:hover {
+    color: #e60cba;
+    text-decoration: underline;
+}
+
+header nav ul a {
+    color: #1b1b1b;
+
+}
+
+header .nav-logo span {
+    color: #e60cba;
+
+}
+
+
+@media screen and(max-width:768px) {
+    header nav ul {
+        display: none;
+
+    }
+}
